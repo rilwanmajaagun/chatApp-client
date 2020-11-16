@@ -18,4 +18,8 @@ if(localStorage.getItem('token')) {
     console.log(error);
   })
 }
+socket.on('disconnect', () => {
+  socket.emit('online', {senderId: socket.id})
+});
+
  export default socket

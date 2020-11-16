@@ -15,8 +15,7 @@ import Room from './views/Room';
 import ChatRoom from './views/ChatRoom';
 import ChatWithFriends from './views/ChatWithFriends';
 import AddFriends from './views/AddFriends';
-import Push from './views/Push';
-
+import VideoCall from './views/VideoCall';
 
 
 
@@ -25,7 +24,6 @@ function App() {
     <div>
       <Router>
         <Header />
-        <Push/>
         <Footer />
         <Switch>
           <Route exact path='/' component={Home} />
@@ -37,6 +35,7 @@ function App() {
           <Route path='/chat' component={ChatRoom} />
           <Route path='/friends' component={ChatWithFriends} />
           <Route path='/addFriends' component={AddFriends}/>
+          <Route path='/videoCall' component={VideoCall}/>
         </Switch>
       </Router>
     </div>

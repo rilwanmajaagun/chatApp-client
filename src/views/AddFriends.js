@@ -74,8 +74,6 @@ const AddFriends = () => {
     return items.username;
   })
 
-  console.log(reload);
-
   if (allUsers.length > 0) {
     addNewFriends = allUsers.map((items, index) => {
 

@@ -1,7 +1,6 @@
 import React, {useState, useEffect } from 'react'
 import Moment from 'react-moment';
 import { useForm } from "react-hook-form";
-import { useHistory } from 'react-router-dom'
 import axios from 'axios'
 import socket from '../Connection'
 

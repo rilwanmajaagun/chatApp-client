@@ -11,7 +11,7 @@ const Login = () => {
   const [username, setUsername ] = useState()
   const [userId, setUserId] = useState()
   const [logged, setLogged ] = useState(false)
-
+  
   useEffect(() => {
     socketConnection.emit('userName.isOnline', username)
     socketConnection.emit('logged-in', userId)
