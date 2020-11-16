@@ -1,1 +1,1 @@
-# chatApp-client
+# chat-with-a-friend #client
