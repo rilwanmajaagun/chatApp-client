@@ -4,7 +4,7 @@ This is a simple react app, that allows user create account,
 
 See all exitising users and add them to his/her friends list
 
-User can see all friends, and have an option to remove friends. 
+User can see all friends, and can remove friend. 
 
 Users can send a direct message to friends or video call with an option of share screen.
 
